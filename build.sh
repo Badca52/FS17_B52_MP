@@ -5,6 +5,6 @@ cp -r ./scripts ./temp
 cp modDesc.xml ./temp/modDesc.xml
 cp icon.png ./temp/icon.png
 cd temp
-zip -r ../FS17_PriceLogger.zip *
+zip -r ../FS17_B52_MP.zip *
 cd ..
 rm -rf temp
