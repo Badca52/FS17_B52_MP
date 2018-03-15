@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modDesc descVersion="37">
+	<author>Badca52</author>
+	<version>0.0.1.1</version>
+	<title>
+		<en>B52 MP Test</en>
+		<de>B52 MP Test</de>
+	</title>
+	<description>
+		<en><![CDATA[Farming Simulator 17 - B52 MP Test]]></en>
+		<de><![CDATA[Farming Simulator 17 - B52 MP Test]]></de>
+	</description>
+	<iconFilename>icon.png</iconFilename>
+	<multiplayer supported="true" />
+	<l10n>
+		<text name="title">
+			<en>B52 MP Test</en>
+			<de>B52 MP Test</de>
+		</text>
+		<text name="wheat">
+			<en>Wheat</en>
+			<de>weizen</de>
+		</text>
+		<text name="barley">
+			<en>Barley</en>
+			<de>gerste</de>
+		</text>
+		<text name="rape">
+			<en>Canola</en>
+			<de>raps</de>
+		</text>
+		<text name="sunflower">
+			<en>Sunflowers</en>
+			<de>sonnenblume</de>
+		</text>
+		<text name="soybean">
+			<en>Soybeans</en>
+			<de>sojabohne</de>
+		</text>
+		<text name="maize">
+			<en>Corn</en>
+			<de>mais</de>
+		</text>
+		<text name="potato">
+			<en>Potatoes</en>
+			<de>kartoffeln</de>
+		</text>
+		<text name="sugarBeet">
+			<en>Sugar Beets</en>
+			<de>zuckerrübe</de>
+		</text>
+		<text name="manure">
+			<en>Manure</en>
+			<de>düngen</de>
+		</text>
+		<text name="liquidManure">
+			<en>Liquid Manure</en>
+			<de>gülle</de>
+		</text>
+		<text name="wool">
+			<en>Wool</en>
+			<de>wolle</de>
+		</text>
+		<text name="woodChips">
+			<en>Woodchips</en>
+			<de>holzhackschnitzel</de>
+		</text>
+		<text name="silage">
+			<en>Silage</en>
+			<de>silage</de>
+		</text>
+		<text name="straw">
+			<en>Straw</en>
+			<de>strohhalm</de>
+		</text>
+		<text name="dryGrass_windrow">
+			<en>Hay</en>
+			<de>heu</de>
+		</text>
+		<text name="grass_windrow">
+			<en>Grass</en>
+			<de>gras</de>
+		</text>
+		<text name="sugarCane">
+			<en>Sugar Cane</en>
+			<de>sugarCane</de>
+		</text>
+		<text name="input_B52_MP_SEND_MESSAGE">
+			<en>Send Test Message</en>
+			<de>Send Test Message</de>
+		</text>
+	</l10n>
+	<extraSourceFiles>
+		<sourceFile filename="scripts/b52MP.lua" />
+	</extraSourceFiles>
+	<inputBindings>
+    <input name="B52_MP_SEND_MESSAGE" category="ONFOOT VEHICLE" key1="KEY_lalt KEY_m" button="" />
+  </inputBindings>
+</modDesc>
